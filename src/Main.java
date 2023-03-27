@@ -8,11 +8,13 @@ public class Main {
         checkIsLeapYear(1570);
         checkIsLeapYear(1571);
         checkIsLeapYear(1572);
+
         deliveryBankCard(10);
         deliveryBankCard(45);
         deliveryBankCard(88);
         deliveryBankCard(150);
     }
+
 
     public static void checkIsLeapYear(int year) {
         if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
@@ -22,7 +24,6 @@ public class Main {
         }
 
     }
-
 
 
     public static void versionApp(int clientDeviceYear, int clientOS) {
