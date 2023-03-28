@@ -45,7 +45,6 @@ public class Main {
         }
     }
 
-
     public static void deliveryBankCard(int Distance) {
         if (Distance < 20) {
             System.out.println("Потребуются сутки для доставки");
